@@ -1,0 +1,21 @@
+R=(V AND F) OR NOT(V AND F)
+R= F OR NOT F
+R = F OR V
+R= V
+
+
+R=(V OR F) AND NOT (V AND F)
+R=V AND NOT F
+R=V AND V
+R=V
+
+
+R=NOT(V AND F) AND NOT (V OR F)
+R=NOT F AND NOT V
+R=V AND F
+R=F
+
+R=((V AND F) AND (V OR F)) OR (V AND F)
+R=((F) AND (V)) OR (F)
+R=(F) OR (F)
+R=F
