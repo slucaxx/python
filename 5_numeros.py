@@ -1,11 +1,12 @@
 import os
 os.system("cls")
+import time
 
-print("----------------ANALISE DE DADOS------------------")
+print("---------ANALISE DE DADOS------------")
+soma=0
 
-soma = 0
+for i in range(1,6):
+    n=int(input("digite um numero: "))
+    soma=soma + n
 
-for i in range(1, 6):
-    n = int(input(f"Digite o {i}º número: "))
-    soma = soma + n 
-print(f"\nA soma de todos os números lidos é: {soma}")
+print("a soma de todos os numeros informados é {soma}")
